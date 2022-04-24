@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 10%;
+  background: #1b1b1b;
+  color: white;
+}
+
+.header h1
+{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -100%);
+  cursor: pointer;
+}
+
+.header .addBlogButton
+{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header .loginButton
+{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blogs
+{
+  position: absolute;
+  top: 10%;
+  width: 15%;
+  height: 90%;
+  padding-left: 1%;
+  background: #1b1b1b;
+  color: white; 
+}
+
+.blogs h3
+{
+  width: 15vw;
+  font-weight: 400;
+  padding: 5%;
+}
+
+.blogs h3:hover
+{
+  cursor: pointer;
+  background: rgb(59, 59, 59);
+}
+
+.page
+{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 85%;
+  height: 90%;
+  background: #131313;
+  color: white;
+  word-wrap: break-word;
+}
+
+.page h3
+{
+  font-weight: 400;
+}
+
+.blog
+{
+  margin: 3%;
+}
+
+.login
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login p
+{
+  color: red;
+}
+
+.mainPage
+{
+  margin: 3%;
+}
+
+.addBlogButton2
+{
+  margin: 2%;
+}
+
+.addBlog
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addBlog p
+{
+  color: red;
+}
+
+.deleteBlogs div
+{
+  margin: 3%;
+}
