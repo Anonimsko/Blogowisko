@@ -58,6 +58,10 @@ Wystarczy duży zapał, pomysł na treść i dzięki łatwości korzystania z fu
 
   const Login = () =>
   {
+    const [login, setLogin] = useState("");
+    const [password, setPassword] = useState("");
+    const [isCorrect, setIsCorrect] = useState("");
+
     return(
       <div className="login">
         <h1>Zaloguj się</h1>
@@ -74,6 +78,11 @@ Wystarczy duży zapał, pomysł na treść i dzięki łatwości korzystania z fu
 
     const AddBlog = () =>
     {
+      const [name, setName] = useState("");
+      const [headline, setHeadline] = useState("");
+      const [text, setText] = useState("");
+      const [isEmpty, setIsEmpty] = useState("");
+
       return(
         <div className="addBlog">
           <input type="text" placeholder="Nazwa"/><br />
